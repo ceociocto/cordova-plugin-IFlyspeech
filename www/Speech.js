@@ -120,8 +120,8 @@ Speech.prototype = {
         exec(null, null, 'Speech', 'cancelListening', []);
     },
 
-    startSpeak: function(success,error,text) {
-        exec(null, null, 'Speech', 'startSpeaking', [text, {voice_name: 'xiaoyan'}]);
+    startSpeak: function(success,error,text, voice) {
+        exec(null, null, 'Speech', 'startSpeaking', [text, {voice_name: voice}]);
     },
 
     pauseSpeaking: function() {
