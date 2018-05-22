@@ -1,0 +1,19 @@
+{
+  "name": "cordova-plugin-iflyspeech",
+  "version": "1.0.0",
+  "description": "cordova 集成科大讯飞语音sdk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ceociocto/cordova-plugin-IFlyspeech.git"
+  },
+  "author": "ceociocto@qq.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ceociocto/cordova-plugin-IFlyspeech/issues"
+  },
+  "homepage": "https://github.com/ceociocto/cordova-plugin-IFlyspeech#readme"
+}
